@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for a trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter ur name">
+            <br>
+            <label for="sectionida">
+                <input type="radio" value="Section A" name="section" id="sectionida"> math
+            </label><br>
+            <label for="sectionidb">
+                <input type="radio" value="Section B" name="section" id="sectionidb"> chem
+            </label><br>
+            <label for="sectionidc">
+                <input type="radio" value="Section C" name="section" id="sectionidc"> phy
+            </label><br>
+            <input type="checkbox" name="canteen" id="foodcanteen" class="red">
+            <label for="foodcanteen">Want food canteen card
+                <!-- u can click on the "want food canteen card" to check the box but if the "id" and "for" are diff then u will have to check in the box  -->
+            </label><br>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain the reason"></textarea>
+            <br>
+            <select name="car" id="car">Select
+                <option value="no-car">Select ur car</option>
+                <option value="bmw">BMW</option>
+                <option value="nexon">Nexon</option>
+                <option value="mercedez">Mercedez</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
